@@ -9,7 +9,7 @@ public class Problem3 {
 		//What is the largest prime factor of the number 600851475143 ?
 		
 		//Solution: 6857
-		//Time token:  3.7277358180844026E-4 Nanoseconds
+		//Time token:  1.0007166040752602 Nanoseconds
 		
 		double startTime = System.nanoTime();
 		double endTime = 0;
@@ -36,7 +36,7 @@ public class Problem3 {
 		
 		System.out.println((long)solution);
 		endTime = System.nanoTime();
-		System.out.println("Time token for execution in Nanoseconds: " + (int) endTime/startTime);
+		System.out.println("Time token for execution in Nanoseconds: " + (float) endTime/startTime);
 		
 	}
 	

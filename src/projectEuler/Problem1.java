@@ -10,7 +10,7 @@ public class Problem1 {
 		//Find the sum of all the multiples of 3 or 5 below 1000.
 		
 		//Solution: 233168
-		//Time token: 0.001804450760548193 Nanoseconds
+		//Time token: 1.0000023011184995 Nanoseconds
 		
 		double startTime = System.nanoTime();
 		double endTime = 0;
@@ -24,7 +24,7 @@ public class Problem1 {
 		
 		System.out.println(solution);
 		endTime = System.nanoTime();
-		System.out.println("Time token for execution in Nanoseconds: " + (int) endTime/startTime);
+		System.out.println("Time token for execution in Nanoseconds: " + (float) endTime/startTime);
 		
 	}
 

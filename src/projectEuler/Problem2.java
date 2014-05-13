@@ -14,7 +14,7 @@ public class Problem2 {
 		//find the sum of the even-valued terms.
 		
 		//Solution: 4613732
-		//Time token: 9.31659778249988E-4 Nanoseconds
+		//Time token: 1.0000021174211187 Nanoseconds
 		
 		double startTime = System.nanoTime();
 		double endTime = 0;
@@ -37,7 +37,7 @@ public class Problem2 {
 		
 		System.out.println(solution);
 		endTime = System.nanoTime();
-		System.out.println("Time token for execution in Nanoseconds: " + (int) endTime/startTime);
+		System.out.println("Time token for execution in Nanoseconds: " + (float) endTime/startTime);
 		
 	}
 
